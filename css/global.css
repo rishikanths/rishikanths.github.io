@@ -1,0 +1,119 @@
+body {
+	padding: 1em 0em 1em 0em; 
+	text-align:center;
+	}
+	
+body.home{
+	width:80%;
+	margin:0 auto;
+	font-size:17px;
+	text-align:left;
+	background-image: url("../images/background.jpg");
+	background-repeat:repeat;
+}
+
+.header{
+	margin: 1em 0em 2em 0em;
+	height:140px;
+	background-image:url('../images/bgStrip1.jpg');
+	background-repeat:repeat;
+}
+
+header.home{
+	height:140px;
+	background-image:url('../images/bgStripName1.jpg');
+	background-repeat:no-repeat;
+}
+
+.container{
+	padding:.1em;
+	max-width:none;
+}
+
+.leftNav li{
+	font-size:18px;
+	font-weight:bold;
+	margin:.2em;
+	padding:1em;
+	background-image:url('../images/bgStrip1.jpg');
+	background-repeat:repeat;
+}
+
+.leftNav a:hover{
+	letter-spacing:1px;	
+}
+.name{
+	color:#039be5;
+	font-weight:bold;
+	font-size:20px;
+}
+h4{
+	color:#039be5;
+	font-weight:bold;
+	font-size:20px;
+	font-size: 24px;
+}
+.subTitle{
+	font-weight:bold;
+	font-size:17px;
+}
+.label{
+	color:black;
+	font-size:17px;
+}
+.currentWork ul li{
+	list-style:square;
+	margin: 0 0 3px 0;
+}
+.external{
+	margin:0 3px 0px opx;
+	font-size:12px;
+	color:#006600;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.abstract{
+	font-size:large;
+	font-style:italic;
+	padding-left:10px;
+}
+.collapsible {box-shadow:none; }
+.projectResponsibilities{
+	color:#86090E;
+	font-weight:bold;line-height:1.5;
+	padding:0;
+	height:1.7em;
+	border-bottom:none;
+	background-color:transparent;
+}
+.respList{
+	padding-left:1em;
+} 
+.respList ul li{
+	padding:0em 0em .5em 0em;
+	list-style-type:square;
+}
+.respList ul{
+	padding:0em 0em 0em 1em;
+}
+.skills .card-content ul{
+	padding:0em 0em 0em .5em;
+}
+.skills .card-content ul li{
+	padding:0em 0em 1.2em 0em;
+}
+
+.skillsTitle{
+	font-weight: bold;
+	color: #000066;
+	padding: 3px 0px 3px 5px;
+	margin: 0 inherit;
+}
+.abstractTitle{
+	color:#86090E;
+	font-weight:bold;
+	line-height:1.5;
+	padding:0;
+	height:1.7em;
+	font-size:14px;
+}

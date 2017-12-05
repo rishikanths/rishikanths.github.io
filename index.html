@@ -1,17 +1,11 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
-<head itemscope itemtype="https://schema.org/Person">
+<head>
 <title>Rishi Saripalle</title>
 <meta charset="ISO-8859-1">
-<meta itemprop="familyName" content="Saripalle" />
-<meta itemprop="givenName" content="Rishi Kanth" />
-<meta itemprop="description"
+<meta content="Saripalle" />
+<meta content="Rishi Kanth" />
+<meta 
 	content="Rishi Saripalle has extensive experience in applying software and semantic methodologies/technologies towards the domain of biomedical informatics and ontologies. 
 	HIs research is focused on applying software engineering methodologies, modeling techniques, meta-modeling concepts and software patterns towards ontologies to reduce the gap between ontology design 
 	and its implementation. Rishi Saripalle has very good knowledge on biomedical ontologies/terminologies such as UMLS, SNOMED-CT, LONIC, ICD, etc. and biomedical/clinical frameworks 
@@ -19,11 +13,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	The primary goal of this standard is to reduce interoperability issues in a integrated clinical environment - an complex environment where medical devices and other equipment 
 	is connected to the hospital/organizations information technology/architecture">
 <meta name="keywords"
-	content="Rishi Saripalle, Software Modeling and Engineering, biomedical healthcare informatics, 
+	content="Rishi Saripalle, Virtual Reality, Software Modeling and Engineering, biomedical healthcare informatics, 
 				ontololgies, semantic web, HL7, HL7 RIM, HL7 FHIR">
-
 <link rel="shortcut icon" href="images/icon.jpg" />
-
 <!--fonts-->
 <link
 	href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900'
@@ -42,7 +34,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript">
+	
 	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
 </script>
 <!-- js -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -179,29 +173,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="strip text-center">
 				<img src="images/about.png" alt=" " />
 			</div>
-			<p>
-				I am Rishi Saripalle, Assistant Professor at School of Information
-				Technology, Illinois State University. I possess 8+ years of
+			<p itemscope itemtype="https://schema.org/Person">
+				I am <span itemprop="givenName">Rishi</span> 
+				<span itemprop="familyName">Saripalle</span>, 
+				<span itemprop="jobTitle">Assistant Professor</span> at 
+				<span itemprop="affiliation" itemscope itemtype="http://schema.org/EducationalOrganization">
+				School of Information
+				Technology, <span itemprop="name">Illinois State University</span></span>. 
+				<span itemprop="description">I possess 8+ years of
 				experience in biomedical and healthcare informatics research and
-				development. My research interests is primarily in finding solutions
+				development. My research interests are primarily in finding solutions
 				to issues related to the domain of biomedical and healthcare
 				informatics by using fundamental principles of software engineering,
-				software modeling, medical data standards, knowledge management,
-				semantic web and ontologies. I have worked closely on multiple
+				software modeling, healthcare data standards, knowledge management,
+				semantic web, and ontologies. I have worked closely on multiple
 				projects with University of Connecticut Health Center such as
 				clinical translational systems (i2b2), healthcare databases, smart
 				healthcare platforms, EHR's, etc. I have also collaborated on
 				applying various access control and security models to healthcare
-				applications.<br /> Before joining ISU, I worked as a federal
+				applications.<br/> Before joining ISU, I worked as a federal
 				contractor at National Institute of Standard and Technology (NIST)
 				in Information Access Division on biomedical device and data
-				interoperability project.
+				interoperability project.</span>
 			</p>
 		</div>
-	</div>
-	<!--//about-->
-	<div class="my-skill-back">
-		<p></p>
 	</div>
 	<!--my skill-->
 	<div class="my-skills" id="research">
@@ -216,10 +211,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li class="collection-header">
 							<h4>Current Work</h4>
 						</li>
-						<li class="collection-item"><label>Assistant
-								Professor, Illinois State University</label></li>
+						<li class="collection-item"><label>Assistant Professor, Illinois State University</label></li>
 						<li class="collection-item">
 							<ul style="padding-left: 10px">
+								<li><p>Explore the value of Virtual Reality and
+										Augmented Reality in the domain of Biomechanics and
+										Healthcare.</p></li>
+								<li><p>Explore HL7 FHIR and openMRS to capture the
+										physical activity data captured using various digital
+										instruments such as wearables, notes, mobile apps, etc.</p></li>
 								<li><p>Research and development on applying software
 										meta-modeling concepts from MOF &amp; UML onto UMLS Semantic
 										Network. The goal is to expose the biomedical knowledge
@@ -232,16 +232,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										which visualization(s) the students prefer and how will the
 										selected visualization impact student learning capability of
 										the medical concepts.</p></li>
-								<li><p>Explore the HL7 FHIR and openEHR to capture the
-										physical activity data captured using varous instruments such
-										as wearbales, notes, mobile apps, etc.</p></li>
-								<li><p>Explore the value of Virtual Reality and
-										Agumented Reality in the domain of Biomechanics and
-										Healthcare.</p></li>
 							</ul>
 						</li>
 					</ul>
-
 
 					<ul class="collection with-header">
 						<li class="collection-header">
@@ -249,10 +242,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</li>
 						<li class="collection-item">
 							<ul style="padding-left: 10px">
-								<li itemscope  itemtype="http://schema.org/SoftwareApplication">
-									<p><span itemprop="name">UMLS Visualization.</span><span> <a
-									href="https://github.com/rishikanths/umls" target="_blank"
-									itemprop="downloadUrl">Git</a> </span></p>
+								<li itemscope itemtype="http://schema.org/SoftwareApplication">
+									<p>
+										<span itemprop="name">UMLS Visualization.</span><span>
+											<a href="https://github.com/rishikanths/umls" target="_blank"> 
+											<span itemprop="downloadURL">
+												https://github.com/rishikanths/umls
+											</span></a>
+											<span itemprop="operatingSystem"/>
+										</span>
+									</p>
 								</li>
 								<li itemscope itemtype="http://schema.org/SoftwareApplication">
 									<p itemprop="name">UMLS Semantic Network as UML Profile</p>
@@ -293,13 +292,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
 										<b><span itemprop="author">Rishi Saripalle</span></b>, <i><span
-											itemprop="name">"Fast Health Interoperability
+											itemprop="headline	">"Fast Health Interoperability
 												Resources (FHIR): Current Status in the Healthcare"</span></i>,
 										accepted, <span itemscope
 											itemtype="http://schema.org/Periodical"> <span
 											itemprop="name">International Journal of E-Health and
-												Medical Communications.</span>
-										</span>
+												Medical Communications,</span></span> <span itemprop="datePublished">2017</span>.
+										<span itemprop="image"></span>
 									<div class="abstractTitle collapsible-header">Abstract</div>
 									<div class="collapsible-body">
 										<p>
@@ -323,17 +322,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												FHIR can bridge interoperability gap between the growing
 												number of disparate and variety of healthcare entities.</span>
 										</p>
-									</div></li>
+									</div>
+									<span style="display: none" itemprop="keywords">HL7
+										FHIR, FHIR, HL7 FHIR review</span></li>
 								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
 										<b><span itemprop="author">Rishi Saripalle</span></b>, <i><span
-											itemprop="name">"Extending HL7 RIM Model to Capture
-												Physical Activity Data"</span></i>, <span itemscope
+											itemprop="headline">"Extending HL7 RIM Model to
+												Capture Physical Activity Data"</span></i>, <span itemscope
 											itemtype="http://schema.org/Periodical"> <span
 											itemprop="name">International Conference on Software
 												Engineering and Knowledge Engineering</span></span>, <span
-											itemprop="datePublished">2017.</span>
-											<span itemprop="url"><a class="green-text"
-											href="https://doi.org/10.18293/SEKE2017-053">doi:10.18293/SEKE2017-053</a></span>
+											itemprop="datePublished">2017</span>. <a class="green-text"
+											href="https://doi.org/10.18293/SEKE2017-053"><span
+											itemprop="url"> doi:10.18293/SEKE2017-053</span></a>
 									<div class="abstractTitle collapsible-header">Abstract</div>
 									<div class="collapsible-body">
 										<p>
@@ -360,197 +361,251 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												extending HL7 RIM model using health and life sciences
 												entities from Schema.org.</span>
 										</p>
-									</div></li>
-
-								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
-										<b><span itemprop="author">Rishi Kanth Saripalle</span></b>, 
-										<i><span itemprop="name">"UMLS visualization for
-											biomedical and health science classroom teaching and student
-											learning"</span></i>, <span itemscope
-											itemtype="http://schema.org/Periodical"> 
-											<span itemprop="name">IEEE EMBS International Conference on Biomedical
-										and Health Informatics</span></span>, <span
-											itemprop="datePublished">2017.</span> <span
-											itemprop="url"><a class="green-text"
-											href="https://doi.org/10.1109/BHI.2017.7897259">doi:10.1109/BHI.2017.7897259</a></span>
-									<div class="abstractTitle collapsible-header">Abstract</div>
-									<div class="collapsible-body">
-										<p><span itemprop="description">The primary goal of Unified Medical Language System
-											(UMLS) is to unify disparate medical standards for uniform
-											and unambiguous semantic interpretation. For the past two
-											decades, UMLS is used in research ranging from biomedical
-											natural language processing to electronic health record and
-											even enhancing UMLS metathesaurus itself. However, only few
-											research efforts have focused on its visualization and none
-											of them are designed for classroom and student learning
-											environment. In this research effort, we have implemented a
-											visualization framework for UMLS using datadriven
-											technologies. We also present a proposed evaluation framework
-											adapted from Unified Technology Acceptance and Use Theory
-											(UTAUT) for its impact.</span></p>
-									</div></li>
-								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
-										<b><span itemprop="author">Rishi Saripalle</b></p>
-										<i><span itemprop="name"> "Electronic Physical Activity
-											Record (EPAR): Key for Data Driven Physical Activity
-											Services"</span></i>, accepted <span itemscope
-											itemtype="http://schema.org/Periodical"> 
-											<span itemprop="name">18th International Conference on
-												E-health, Networking, Applications & Services,</span></span> 
-											<span itemprop="datePublished">2017.</span>.
-									<div class="abstractTitle collapsible-header">Abstract</div>
-									<div class="collapsible-body">
-										<p> <span itemprop="description">Medical experts highly recommend to include physical
-											activity in everyone's daily routine irrespective of gender
-											or age as it helps to improve various medical issues or curb
-											potential issues. Simultaneously, experts are also diligently
-											trying to provide various healthcare services (interventions,
-											plans, exercise routines, etc.) for promoting healthy living
-											and increasing physical activity in one's ever increasing
-											hectic schedules. With the introduction of wearables,
-											individuals are able to keep track, analyze, and visualize
-											their daily physical activities. However, there seems to be
-											no common agreed standard for representing, gathering,
-											aggregating and analyzing an individual's physical activity
-											data from disparate multiple sources (exercise pans, multiple
-											wearables, etc.). This issue makes it highly impractical to
-											develop any data-driven physical activity applications and
-											healthcare programs. Further, the inability to integrate the
-											physical activity data into an individual's Electronic Health
-											Record to provide a wholistic image of that individual's
-											health is still eluding the experts. This article has
-											identified three primary reasons for this potential issue.
-											First, there is no agreed standard, both structure and
-											semantic, for representing and sharing physical activity data
-											across disparate systems. Second, various organizations
-											(e.g., LA fitness, Gold's Gym, etc.) and research backed
-											interventions and programs still primarily rely on paper or
-											unstructured format (such as text or notes) to keep track of
-											the data generated from physical activities. Finally, most of
-											the wearable devices operate in silos. This article
-											identifies the underlying problem, explores the idea of
-											reusing existing standards, and identifies the essential
-											modules required to move forward.</span></p>
-									</div></li>
-
-								<li><p>
-										<b>Rishi Saripalle</b>, Peter Kaufman <i>
-											"Interdisciplinary Collaboration between Marketing and
-											Software Engineering Students: Opportunities and Limitations"</i>,
-										22nd American Conference on Information Systems, 2016. <a
-											class="green-text"
-											href="http://aisel.aisnet.org/amcis2016/ISEdu/Presentations/13/"
-											target="_blank">AMCIS</a>
-									<div class="abstractTitle collapsible-header">Abstract</div>
-									<div class="collapsible-body">
-										<p>For a product to be successful, members from different
-											functional units in an organization or even across
-											organizations work relentlessly through phases such as market
-											research, design & development, launch, marketing and
-											evaluation. The invisible cardinal attribute required for
-											this process is interoperable communication across teams.
-											However, it is not uncommon for team members from different
-											backgrounds to experience impediments to collaboration due to
-											misunderstandings arising from differences in terminology or
-											processes learned through their educational experiences which
-											in turn impact the product development outcome. We present
-											how a university's software engineering and marketing
-											capstone undergraduate classes collaborated to acquire
-											cross-functional knowledge and experience through
-											co-development of web and mobile applications. We detail the
-											various milestones in developing an application and explain
-											how the application evolved. The student teams developed
-											alpha prototypes, which looked and functioned like the final
-											products based on the students receiving feedback from
-											potential users.</p>
-									</div></li>
-
-								<li><p>
-										Solomon Berhe, <a href="http://www.cse.uconn.edu/~steve/"
-											target="_blank"> Steven Demurjian </a>, Jamie
-										Pavlich-Mariscal, <b>Rishi Kanth Saripalle</b>, <a
-											href="http://www.cse.uconn.edu/~ald10016" target="_blank">
-											Alberto De La Rosa Algarin</a>, <i> "Leveraging UML for
-											Access Control Engineering in a Collaboration on Duty and
-											Adaptive Workflow Model that Extends NIST RBAC"</i>, to appear in
-										Handbook of Research on Innovations in Access Control and
-										Management, 2016.
-									<div class="abstractTitle collapsible-header">Abstract</div>
-									<div class="collapsible-body">
-										<p>To facilitate collaboration in emerging domains such as
-											the patient-centered medical home (PCMH), the authors' prior
-											work extended the NIST role-based access control (RBAC) model
-											to yield a formal collaboration on duty and adaptive workflow
-											(CoD/AWF) model. The next logical step is to place this work
-											into the context of an integrated software process for
-											security engineering from design through enforcement. Towards
-											this goal, the authors promote a secure software engineering
-											process that leverages an extended unified modeling language
-											(UML) to visualize CoD/AWF policies to achieve a solution
-											that separates concerns while still providing the means to
-											securely engineer dynamic collaborations for applications
-											such as the PCMH.</p>
-									</div></li>
-								<li><p>
-										<b>Rishi Kanth Saripalle</b>, <i> "Need for a Specialized
-											Metamodel for Biomedical and Health Informatics Domain"</i>,
-										International Conference for Smart Health, 2015.
-									<div class="abstractTitle collapsible-header">Abstract</div>
-									<div class="collapsible-body">
-										<p>The history of computing has taught the software
-											community significant lessons and few of them in a hard way.
-											After spending numerous resources, the community has realized
-											the need for establishing standards or specification for
-											efficiently handling interoperability issues across diverse
-											applications and tools. For example, UML for model driven
-											development, and XML for information exchange. The domain of
-											biomedical informatics is traversing through a similar path
-											where numerous resources are employed for achieving
-											interoperability among heterogeneous biomedical applications.
-											To mitigate this issue and learning from previous
-											experiences, the biomedical domain has to establish a
-											modeling standard for design and development of its software
-											applications and tools. Towards this goal, this research
-											article proposes a minimal metamodel for the domain of
-											biomedical and health informatics based on MOF and UMLS
-											Semantic Network.</p>
 									</div>
-								<li><p>
-										<b>Rishi Kanth Saripalle</b>, and <a
-											href="http://www.cse.uconn.edu/~steve/" target="_blank">
-											Steven Demurjian </a>, <i>"HOD<sup>2</sup>MLC: Hybrid
-											Ontology Design &amp; Development Model with Lifecycle"
-										</i>, International Journal of Information Technology and Web
-										Design(IJITWE), <i>10(1)</i>, IGI, 2015.
+									<span style="display: none" itemprop="keywords">HL7
+										physical activity, physical activity EHR, electronic physical
+										activity, HL7 scheama.org physical activity </span></li>
+
+								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
+										<b><span itemprop="author">Rishi Kanth Saripalle</span></b>, <i><span
+											itemprop="headline">"UMLS visualization for biomedical
+												and health science classroom teaching and student learning"</span></i>,
+										<span itemscope itemtype="http://schema.org/Periodical">
+											<span itemprop="name">IEEE EMBS International
+												Conference on Biomedical and Health Informatics</span>
+										</span>, <span itemprop="datePublished">2017</span>. <a
+											class="green-text"
+											href="https://doi.org/10.1109/BHI.2017.7897259"><span
+											itemprop="url">doi:10.1109/BHI.2017.7897259</span></a>
 									<div class="abstractTitle collapsible-header">Abstract</div>
 									<div class="collapsible-body">
 										<p>
-											Ontologies have gained increasing usage to augment an
-											application with domain knowledge, particularly in
-											healthcare, where they represent knowledge ranging from:
-											bioinformatics data such as protein, gene, etc. to biomedical
-											informatics such as diseases, diagnosis, symptoms, etc.
-											However, the current ontology development efforts and process
-											are data intensive and construction based, creating
-											ontologies for specific applications/requirements, rather
-											than designing an abstract ontological solution(s) that can
-											be reusable across the domain using a well-defined design
-											process. To address this deficiency, the work presented
-											herein positions ontologies as software engineering artifact
-											that allows them to be placed into the position to share the
-											captured domain conceptualization and its vocabulary
-											involving disparate domain backgrounds, that can then be
-											created, imported, exported and re-used using different
-											frameworks, tools and techniques. Towards this end, the
-											authors propose an agile software process for ontologies
-											referred to as the Hybrid Ontology Design & Development Model
-											with Lifecycle,HOD<sup>2</sup>MLC. To place HOD<sup>2</sup>MLC
-											into a proper perspective, they explore, compare, and
-											contrast it to existing ontology design and development
-											alternatives with respect their various phases as related to
-											the authors' work and phases in varied SDP models.
+											<span itemprop="description">The primary goal of
+												Unified Medical Language System (UMLS) is to unify disparate
+												medical standards for uniform and unambiguous semantic
+												interpretation. For the past two decades, UMLS is used in
+												research ranging from biomedical natural language processing
+												to electronic health record and even enhancing UMLS
+												metathesaurus itself. However, only few research efforts
+												have focused on its visualization and none of them are
+												designed for classroom and student learning environment. In
+												this research effort, we have implemented a visualization
+												framework for UMLS using datadriven technologies. We also
+												present a proposed evaluation framework adapted from Unified
+												Technology Acceptance and Use Theory (UTAUT) for its impact.</span>
 										</p>
 									</div>
+									<span style="display: none" itemprop="keywords">UMLS
+										visualization, UMLS D3js, UMLS visual browser </span></li>
+
+								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
+										<b><span itemprop="author">Rishi Saripalle</b> <i><span
+											itemprop="headline"> "Electronic Physical Activity
+												Record (EPAR): Key for Data Driven Physical Activity
+												Services"</span></i>, accepted <span itemscope
+											itemtype="http://schema.org/Periodical"> <span
+											itemprop="name">18th International Conference on
+												E-health, Networking, Applications & Services,</span></span> <span
+											itemprop="datePublished">2017</span>.
+									<div class="abstractTitle collapsible-header">Abstract</div>
+									<div class="collapsible-body">
+										<p>
+											<span itemprop="description">Medical experts highly
+												recommend to include physical activity in everyone's daily
+												routine irrespective of gender or age as it helps to improve
+												various medical issues or curb potential issues.
+												Simultaneously, experts are also diligently trying to
+												provide various healthcare services (interventions, plans,
+												exercise routines, etc.) for promoting healthy living and
+												increasing physical activity in one's ever increasing hectic
+												schedules. With the introduction of wearables, individuals
+												are able to keep track, analyze, and visualize their daily
+												physical activities. However, there seems to be no common
+												agreed standard for representing, gathering, aggregating and
+												analyzing an individual's physical activity data from
+												disparate multiple sources (exercise pans, multiple
+												wearables, etc.). This issue makes it highly impractical to
+												develop any data-driven physical activity applications and
+												healthcare programs. Further, the inability to integrate the
+												physical activity data into an individual's Electronic
+												Health Record to provide a wholistic image of that
+												individual's health is still eluding the experts. This
+												article has identified three primary reasons for this
+												potential issue. First, there is no agreed standard, both
+												structure and semantic, for representing and sharing
+												physical activity data across disparate systems. Second,
+												various organizations (e.g., LA fitness, Gold's Gym, etc.)
+												and research backed interventions and programs still
+												primarily rely on paper or unstructured format (such as text
+												or notes) to keep track of the data generated from physical
+												activities. Finally, most of the wearable devices operate in
+												silos. This article identifies the underlying problem,
+												explores the idea of reusing existing standards, and
+												identifies the essential modules required to move forward.</span>
+										</p>
+									</div>
+									<span style="display: none" itemprop="keywords">electronic
+										physical activity record, physical activity data model,
+										physical activity interoperability physical activity semantic
+										ontology, physical activity Hl7 </span></li>
+
+								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
+										<b><span itemprop="author">Rishi Saripalle</span></b>, <span
+											itemprop="author">Peter Kaufman</span> <i> <span
+											itemprop="headline">"Interdisciplinary Collaboration
+												between Marketing and Software Engineering Students:
+												Opportunities and Limitations"</span></i>, <span itemscope
+											itemtype="http://schema.org/Periodical"> <span
+											itemprop="name">22nd American Conference on
+												Information Systems, </span></span> 
+												<span itemprop="datePublished">2016</span>.
+											<a class="green-text"
+											href="http://aisel.aisnet.org/amcis2016/ISEdu/Presentations/13/"
+											target="_blank"><span itemprop="url">http://aisel.aisnet.org/amcis2016/ISEdu/Presentations/13/</span></a>
+									<div class="abstractTitle collapsible-header">Abstract</div>
+									<div class="collapsible-body">
+										<p>
+											<span itemprop="description">For a product to be
+												successful, members from different functional units in an
+												organization or even across organizations work relentlessly
+												through phases such as market research, design &
+												development, launch, marketing and evaluation. The invisible
+												cardinal attribute required for this process is
+												interoperable communication across teams. However, it is not
+												uncommon for team members from different backgrounds to
+												experience impediments to collaboration due to
+												misunderstandings arising from differences in terminology or
+												processes learned through their educational experiences
+												which in turn impact the product development outcome. We
+												present how a university's software engineering and
+												marketing capstone undergraduate classes collaborated to
+												acquire cross-functional knowledge and experience through
+												co-development of web and mobile applications. We detail the
+												various milestones in developing an application and explain
+												how the application evolved. The student teams developed
+												alpha prototypes, which looked and functioned like the final
+												products based on the students receiving feedback from
+												potential users.</span>
+										</p>
+									</div>
+									<span style="display: none" itemprop="keywords">Interdisciplinary
+										teaching, Interdisciplinary software marketing</span></li>
+
+								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
+										<span itemprop="author">Solomon Berhe</span>, <span
+											itemprop="author"><a
+											href="http://www.cse.uconn.edu/~steve/" target="_blank">
+												Steven Demurjian </a></span>, <span itemprop="author"> Jamie
+											Pavlich-Mariscal</span>, <span itemprop="author"><b>Rishi
+												Kanth Saripalle</b>,</span> <span itemprop="author"> <a
+											href="http://www.cse.uconn.edu/~ald10016" target="_blank">
+												Alberto De La Rosa Algarin</a>,
+										</span> <i><span itemprop="headline"> "Leveraging UML for
+												Access Control Engineering in a Collaboration on Duty and
+												Adaptive Workflow Model that Extends NIST RBAC"</span></i>, <span
+											itemscope itemtype="http://schema.org/Periodical"> <span
+											itemprop="name">Handbook of Research on Innovations in
+												Access Control and Management</span></span>, <span
+											itemprop="datePublished">2016</span>.
+									<div class="abstractTitle collapsible-header">Abstract</div>
+									<div class="collapsible-body">
+										<p>
+											<span itemprop="description">To facilitate
+												collaboration in emerging domains such as the
+												patient-centered medical home (PCMH), the authors' prior
+												work extended the NIST role-based access control (RBAC)
+												model to yield a formal collaboration on duty and adaptive
+												workflow (CoD/AWF) model. The next logical step is to place
+												this work into the context of an integrated software process
+												for security engineering from design through enforcement.
+												Towards this goal, the authors promote a secure software
+												engineering process that leverages an extended unified
+												modeling language (UML) to visualize CoD/AWF policies to
+												achieve a solution that separates concerns while still
+												providing the means to securely engineer dynamic
+												collaborations for applications such as the PCMH.</span>
+										</p>
+									</div>
+									<span style="display: none" itemprop="keywords">UML
+										RBAC, UML security UML collaboration model</span></li>
+								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
+										<b><span itemprop="author">Rishi Kanth Saripalle</span></b>, <i>
+											<span itemprop="headline">"Need for a Specialized
+												Metamodel for Biomedical and Health Informatics Domain"</span>
+										</i>, <span itemscope itemtype="http://schema.org/Periodical">
+											<span itemprop="name">International Conference for
+												Smart Health </span>
+										</span>, <span itemprop="datePublished">2015</span>.
+									<div class="abstractTitle collapsible-header">Abstract</div>
+									<div class="collapsible-body">
+										<p>
+											<span itemprop="description">The history of computing
+												has taught the software community significant lessons and
+												few of them in a hard way. After spending numerous
+												resources, the community has realized the need for
+												establishing standards or specification for efficiently
+												handling interoperability issues across diverse applications
+												and tools. For example, UML for model driven development,
+												and XML for information exchange. The domain of biomedical
+												informatics is traversing through a similar path where
+												numerous resources are employed for achieving
+												interoperability among heterogeneous biomedical
+												applications. To mitigate this issue and learning from
+												previous experiences, the biomedical domain has to establish
+												a modeling standard for design and development of its
+												software applications and tools. Towards this goal, this
+												research article proposes a minimal metamodel for the domain
+												of biomedical and health informatics based on MOF and UMLS
+												Semantic Network.</span>
+										</p>
+									</div>
+									<span style="display: none" itemprop="keywords">UMLS
+										metamodel, UMLS modeling, UMLS metamodel, UMLS MOF</span></li>
+
+								<li itemscope itemtype="http://schema.org/ScholarlyArticle"><p>
+										<b><span itemprop="author">Rishi Kanth Saripalle</span></b>,
+										and <a href="http://www.cse.uconn.edu/~steve/" target="_blank">
+											<span itemprop="author">Steven Demurjian</span>
+										</a>, <i><span itemprop="headline"><i>"HOD<sup>2</sup>MLC:
+													Hybrid Ontology Design &amp; Development Model with
+													Lifecycle" </span></i>, <span itemscope
+											itemtype="http://schema.org/Periodical"> <span
+											itemprop="name">International Journal of Information
+												Technology and Web Design(IJITWE)</span></span>, <i>10(1)</i>, <span
+											itemprop="datePublished">2015</span>.
+									<div class="abstractTitle collapsible-header">Abstract</div>
+									<div class="collapsible-body">
+										<p>
+											<span itemprop="description"> Ontologies have gained
+												increasing usage to augment an application with domain
+												knowledge, particularly in healthcare, where they represent
+												knowledge ranging from: bioinformatics data such as protein,
+												gene, etc. to biomedical informatics such as diseases,
+												diagnosis, symptoms, etc. However, the current ontology
+												development efforts and process are data intensive and
+												construction based, creating ontologies for specific
+												applications/requirements, rather than designing an abstract
+												ontological solution(s) that can be reusable across the
+												domain using a well-defined design process. To address this
+												deficiency, the work presented herein positions ontologies
+												as software engineering artifact that allows them to be
+												placed into the position to share the captured domain
+												conceptualization and its vocabulary involving disparate
+												domain backgrounds, that can then be created, imported,
+												exported and re-used using different frameworks, tools and
+												techniques. Towards this end, the authors propose an agile
+												software process for ontologies referred to as the Hybrid
+												Ontology Design & Development Model with Lifecycle,HOD<sup>2</sup>MLC.
+												To place HOD<sup>2</sup>MLC into a proper perspective, they
+												explore, compare, and contrast it to existing ontology
+												design and development alternatives with respect their
+												various phases as related to the authors' work and phases in
+												varied SDP models.
+											</span>
+										</p>
+									</div>
+									<span style="display: none" itemprop="keywords">ontology
+										lifecycle, ontology modeling, ontology development</span></li>
 								<li><p>
 										<b>Rishi Kanth Saripalle</b>, <a
 											href="http://www.cse.uconn.edu/~ald10016" target="_blank">
@@ -590,13 +645,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											a UML Metamodel for Improving Biomedical Ontology and
 											Application Modeling"</i>, International Journal of Healthcare
 										Information Systems and Informatics, <i>10(1)</i>, IGI, 2015.
-
-
-
-
-
-
-
 
 									
 									<div class="abstractTitle collapsible-header">Abstract</div>
@@ -649,13 +697,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											Engineering Process for Ontology Design and Development
 											through Extensions to OMD and OWL"</i>, International Journal of
 										Web Semantics and Information Systems, <i>9(2)</i>, IGI, 2013.
-
-
-
-
-
-
-
 
 									
 									<div class="abstractTitle collapsible-header">Abstract</div></li>
